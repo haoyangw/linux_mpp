@@ -1,3 +1,11 @@
+mpp (1.5.0-1+jellyfin) bookworm; urgency=medium
+
+  * Import nyanmisaka/mpp git repo
+  * Update debian/rules cmake flags
+  * Release MPP to Debian Bookworm
+
+ -- Wang Haoyang <haoyangw@gmail.com>  Sun, 18 May 2025 00:18:00 +0800
+
 mpp (1.5.0-1) stable; urgency=critical
 
   * [mpp_enc_impl]: Cleanup hal_task on empty eos task
