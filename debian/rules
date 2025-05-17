@@ -28,5 +28,7 @@ endif
 # This is example for Cmake (See http://bugs.debian.org/641051 )
 override_dh_auto_configure:
 	dh_auto_configure -- \
+	-DCMAKE_INSTALL_PREFIX=/usr \
 	-DCMAKE_BUILD_TYPE=Release \
-	-DARM_MIX_32_64=ON
+	-DARM_MIX_32_64=ON \
+	-DBUILD_SHARED_LIBS=ON
