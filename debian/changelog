@@ -1,4 +1,4 @@
-mpp (1.5.0-1+jellyfin) bookworm; urgency=medium
+mpp (1.5.0-1+git20240724.fda5a02~jellyfin) bookworm; urgency=medium
 
   * Import nyanmisaka/mpp git repo
   * Update debian/rules cmake flags
